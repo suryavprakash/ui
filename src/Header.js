@@ -7,10 +7,10 @@ export default class Header extends React.Component{
     return(
       <View style={styles.Header}>
          <Text style={{fontSize:30,marginRight:299}}>{'<'}</Text>
-      <Text style={{fontSize:40,marginLeft:-170,marginTop:90}}>My Body</Text>
-            <Text style={{fontsize:20}}>{'  '}</Text>
+      <Text style={{fontSize:40,marginRight:170,marginTop:90}}>My Body</Text>
     
-      <Text style={{marginLeft:-245,fontSize:20,marginTop:30}}>Basics</Text>
+    
+      <Text style={{marginRight:245,fontSize:20,marginTop:30}}>Basics</Text>
        
      </View>
       
